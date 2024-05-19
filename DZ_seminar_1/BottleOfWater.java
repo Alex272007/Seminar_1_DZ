@@ -20,4 +20,8 @@ public class BottleOfWater {
     public int getVolume(){return volume;}
     public void setVolume(int volume){this.volume = volume;}
    
+    @Override
+    public String toString() {
+        return String.format("Напиток: %s, Цена: %d, Обьем: %d",name, cost, volume);
+    }
 }

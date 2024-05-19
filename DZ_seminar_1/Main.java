@@ -12,9 +12,10 @@ public class Main {
         vendingMachine.addProduct(product1);
         vendingMachine.addProduct(product2);
 
-        System.out.println(vendingMachine.getProduct("Кофе черный").getName());
-        System.out.println(vendingMachine.getProduct("Чай").getName());
-        System.out.println(vendingMachine.getProduct("Капучино").getName());
+        System.out.println(vendingMachine.getProduct("Кофе черный"));
+        System.out.println(vendingMachine.getProduct("Чай"));
+        System.out.println(vendingMachine.getProduct("Капучино"));
 
     }
+
 }

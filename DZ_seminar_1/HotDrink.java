@@ -16,5 +16,8 @@ public class HotDrink extends BottleOfWater{
     public void setTemperature(int temperature) {
         this.temperature = temperature;
     }
-    
+    @Override
+    public String toString() {
+        return super.toString() + ", Температура: " + temperature;
+    }
 }
